@@ -1,0 +1,23 @@
+<!doctype html>
+    <head>
+        <script src="./script/jquery-1.7.min.js"></script>
+        <!-- Include Plugin File -->
+        <script type="text/javascript" src="./script/rateme.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                //Configure URL where you can save rating in your DB.
+                //rateMe.ajaxURLToPost = "www.someValidUrl.com/post";
+
+                //Init the Plugin
+                rateMe.init();
+            });
+        </script>
+    </head>
+    <body>
+        <p class='rateme'> Its Some Sample Content </p>
+        <br>
+        <h1 class='rateme' data-type="Heading of the page.">My Custom Heading</h1>
+        <br>
+        <p> This is cool</p>
+    </body>
+</html>
